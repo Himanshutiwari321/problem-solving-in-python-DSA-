@@ -1,14 +1,23 @@
-string  = "siiss"
-unique = ""
-for ch in  string :
-  if string.count(ch)==1:
-    unique = ch
-    break
+string  = "swiss"
+unique = {}
+for ch in string :
+  if ch in unique:
 
-if unique == "":
-  print ("not found unique character ")  
+    unique[ch] = unique[ch] + 1
+  else:
+    unique[ch] = 1
+
+
+for ch in string:
+    if unique[ch] == 1:
+      
+
+      break    
+
+if unique[ch] != 1:
+   print ("not found unique character ")  
 else:
-  print ("unique character", unique)  
+  print ("unique character", ch)  
   
 
   
