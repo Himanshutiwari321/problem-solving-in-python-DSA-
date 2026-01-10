@@ -1,3 +1,6 @@
+# find unique characrer in string 
+
+
 string  = "swiss"
 unique = {}
 for ch in string :
@@ -10,8 +13,6 @@ for ch in string :
 
 for ch in string:
     if unique[ch] == 1:
-      
-
       break    
 
 if unique[ch] != 1:
