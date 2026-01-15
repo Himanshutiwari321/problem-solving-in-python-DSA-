@@ -10,8 +10,6 @@ for i in range (len(nums)):
     com = target - cur
     if com in seen:
        print(seen[com],i)
-        
-
     else:
         seen[cur]=i
 
