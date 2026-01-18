@@ -1,4 +1,4 @@
-# string  are pallidrom or not  using 
+# tring are pallidrom or not 
 
 s = "madam"
 rev = ""
@@ -10,13 +10,7 @@ for i in range(len(s)-1,-1,-1):
 if s==rev:
     print("palidrom")
 else:
-    print("not palidrom")
-
-#time compexcity = o(n)
-# space complexcity = o(n)    
-
-
-
+  print("not palidrom")
 
 
 # 2 - pointer aporoch for cheking palidrom or not 
@@ -35,4 +29,4 @@ else:
     print("palidrom")  
 
 #time compexcity = o(n)
-# space complexcity = o(1)         
+# space complexcity = o(1)           
