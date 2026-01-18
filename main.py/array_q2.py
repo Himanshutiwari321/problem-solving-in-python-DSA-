@@ -1,4 +1,4 @@
-#extraction og digit 
+#extraction of digit 
 
 n = 5873
 num = n 
