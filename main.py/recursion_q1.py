@@ -1,13 +1,22 @@
-# print name n times ----- recursion problem 
-n = 10
+#print x ,N times . given x=15 and n=4
 
-def func(count):
+def func(x,N):
+  if N==0:
+    return
+  print(x)
+  func(x,N-1) 
 
-  if count == n:
+
+func(15,4)  
+
+#print 1 to N , given N=5
+def fun (i,N):
+  if i>N:
     return 
-  func(count+1)
-  print(count)
-  
-func(0)  
+  print(i)
+  fun(i+1,N)
+
+fun(1,5)  
+ 
 
 
