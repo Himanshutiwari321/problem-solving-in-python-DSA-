@@ -1,4 +1,4 @@
-#print x ,N times . given x=15 and n=4
+#print x ,N times . given x=15 and n=4  -- using head recursion 
 
 def func(x,N):
   if N==0:
@@ -9,7 +9,8 @@ def func(x,N):
 
 func(15,4)  
 
-#print 1 to N , given N=5
+#print 1 to N , given N=5  
+# 1 to N using head recursion 
 def fun (i,N):
   if i>N:
     return 
@@ -17,6 +18,20 @@ def fun (i,N):
   fun(i+1,N)
 
 fun(1,5)  
+
+
+# 1 to N using tain  recursion 
+
+def func(N):
+  if N==0:
+    return 
+  func(N-1)
+  print(N)
+
+func(5)  
+
+
+
  
 
 
