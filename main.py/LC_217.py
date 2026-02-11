@@ -1,4 +1,4 @@
-#find duplicate item from list
+#find duplicate item from list.
 
 nums = [1,2,3,22]
 result = {}
