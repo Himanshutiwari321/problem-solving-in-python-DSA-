@@ -18,9 +18,14 @@ for n in set(nums):
    elif third is None or n > third:
        third = n    
 
-if third is None :
-    print (first)
-else:
-    print (third)    
+#if third is None :
+   # print (first)
+#else:
+    #print (third) 
+
+
+print(nums.index(first))
+print(second)
+print(third )       
 
 
