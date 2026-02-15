@@ -1,12 +1,14 @@
 # push one 
 
-nums = [1,2,3]
+nums = [9,9,9]
 
 for i in range(len(nums)-1,-1,-1):
     if nums[i]<9:
-       nums[i]+=1
-    print(nums)
-    break  
+      nums[i]+=1
+      break
+    nums[i]=0
+else:
+   nums = [1]+nums
 
-
-nums[i]=0   
+print(nums)   
+  
