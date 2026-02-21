@@ -2,10 +2,14 @@
 
 nums = [1,2,2,3,3,4,4,4,5,7,6,]
 
-result = []
+left = 0
 
-for i in nums:
-  if i not in  result:
-     result+= [i]  # result.append(i) ye code bhi kam karega  list mai ye code use kar sakte hai append karne ke liye 
+for right in range(1,len(nums)):
+    if nums[left]!= nums[right]:
+       left+=1
+       nums[left]=nums[right]
+       
+print (left+1)
+result = nums[:left+1]
 
-print(result )  
+print(result)
