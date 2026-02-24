@@ -1,6 +1,6 @@
 # remove duplicate element in array --- list in python 
 
-nums = [1,2,2,3,3,4,4,4,5,7,6,]
+nums = [1,2,2,3,3,4,4]
 
 left = 0
 
