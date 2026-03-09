@@ -20,7 +20,7 @@ def fun (i,N):
 fun(1,5)  
 
 
-# 1 to N using tain  recursion 
+# 1 to N using tail  recursion 
 
 def func(N):
   if N==0:
