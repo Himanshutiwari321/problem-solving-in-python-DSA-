@@ -14,7 +14,7 @@ for i in s:
 for ch in range (len(s)):
    if ans[s[ch]]==1:
       print(s[ch])
-      #print(ch)
+      print(ch)
       break
 else:  
   print(-1)          
