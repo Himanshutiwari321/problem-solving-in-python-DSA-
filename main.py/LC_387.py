@@ -13,6 +13,7 @@ for i in s:
 
 for ch in range (len(s)):
    if ans[s[ch]]==1:
+      print(s[ch])
       print(ch)
       break
 else:  
